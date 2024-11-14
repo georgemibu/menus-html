@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Menu Horizontal</h1>
+    <h3>Es el tipo más común de menú, en el que los enlaces se alinean en una fila.</h3>
+    <nav>
+        <ul style="list-style-type: none; padding: 0; display: flex;">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Menu Vertical</h1>
+    <h3>Este tipo de menú se muestra como una lista vertical, útil para menús laterales o en dispositivos móviles.</h3>
+    <nav>
+        <ul style="list-style-type: none; padding: 0;">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Menú con Submenús (Desplegable)</h1>
+    <h3>Ideal para sitios con varias categorías. Los submenús pueden mostrarse con CSS avanzado o JavaScript para ocultarlos/desplegarlos.</h3>
+    <nav>
+        <ul style="list-style-type: none; padding: 0;">
+            <li><a href="#inicio">Inicio</a></li>
+            <li>
+                <a href="#servicios">Servicios</a>
+                <ul style="list-style-type: none; padding-left: 20px;">
+                    <li><a href="#servicio1">Servicio 1</a></li>
+                    <li><a href="#servicio2">Servicio 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <h1>Menu hamburguesa</h1>
+    <h3>Es popular en diseño responsive. Al activarse, el ícono de "hamburguesa" muestra el menú completo. Este ejemplo muestra solo el HTML del menú, pero el ícono suele controlarse con CSS/JavaScript.</h3>
+    <nav>
+        <!-- Ícono de menú hamburguesa -->
+        <div>☰</div>
+        <ul style="list-style-type: none; padding: 0; display: none;">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Menu de navegación de pie de página</h1>
+    <h3>Este tipo de menú suele ir al final de una página web y permite navegar entre secciones importantes del sitio, con frecuencia sin estar visible en el header.</h3>
+    <footer>
+        <nav>
+            <ul style="list-style-type: none; padding: 0; display: flex; justify-content: center;">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <h1>Menu Sticky</h1>
+    <h3>Este menú se queda fijo en la parte superior de la página mientras el usuario hace scroll. Esto se logra con CSS (position: fixed;) pero solo en HTML sería:</h3>
+    <nav style="position: fixed; top: 0; width: 100%; background-color: white;">
+        <ul style="list-style-type: none; padding: 0; display: flex; justify-content: center;">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
